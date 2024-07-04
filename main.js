@@ -22,3 +22,8 @@ document.querySelector(".btnRes").onclick = function () {
   let sum = +elInput1.value % +elInput2.value;
   elDre.innerHTML = `${sum}`;
 };
+document.querySelector("#clear").onclick = function () {
+  elInput1.value = "";
+  elInput2.value = "";
+  elDre.innerHTML = "";
+};

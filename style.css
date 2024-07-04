@@ -93,6 +93,17 @@ form {
   transition: 0.4s;
   color: white;
 }
+#clear {
+  width: 60px;
+  height: 30px;
+  margin-top: 20px;
+  font-size: 15px;
+  border-radius: 5px;
+  align-items: center;
+  text-align: center;
+  background-color: #fcfcfc;
+  border: none;
+}
 h2 {
   margin-top: 20px;
 }
